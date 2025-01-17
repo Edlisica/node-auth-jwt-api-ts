@@ -2,7 +2,7 @@
   "name": "proyecto-jwt-ts",
   "version": "0.0.1",
   "description": "Proyecto de Node con Typescript donde usaremos como BD PostgreSQL y para autenticar JWT",
-  "main": "src/app.js",
+  "main": "dist/server.js",
   "scripts": {
     "dev": "tsnd --respawn --clear src/server.ts",
     "build": "rimraf ./dist && tsc",
